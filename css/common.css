@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,700);
+
+
+/*헤더, 푸터구역 스타일 등 공통구역 스타일*/
+
+.row { max-width:1700px;
+    margin:0 auto;
+}
+.row2 { max-width:1140px;
+    margin:0 auto;
+}
+
+.scrolling-bar {
+    position: absolute;
+    bottom:0px; left:0;
+    z-index:9999999999;
+    width:0%; opacity:0;
+    height:3px;
+    background:#fff;
+
+}
+
+#header { position: fixed; width:100%;
+    top:0; left:0; z-index:99999
+}
+#header .topmenu { padding:30px 20px; 
+    position: relative;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    font-size:22px;
+}
+.topmenu h1 { padding:0 15px; 
+}
+.topmenu .topNav {
+    position: absolute;
+    top:50%; 
+    transform:translate(200px,-50%);
+}
+.topNav .depth1 > li { display:inline-block;
+     position: relative;
+}
+.topNav .depth1 > li > a {
+    font-size:17px;
+    color:#fff;
+    font-weight:bold;
+    padding:10px 10px;
+
+}
+.topNav .depth1 > li > i { opacity:0.5;
+    font-size:8px;
+    color:#fff;
+    padding-right:10px;
+}
+/* .topNav .depth1 > li.on > a { color:#0d50aa } */
+.topNav .depth2 {
+    background:rgba(0,0,0,0.8);
+    color:#fff;
+    border-radius:10px;
+    font-size:16px;
+    text-indent:1em;
+    line-height:2;
+    width:180%;
+    padding:20px 0;
+    margin-top:15px;
+    position: absolute;
+    top:100%; left:0;
+    display:none;
+}
+/* .topNav .depth1 > li:hover .depth2  { display:block; } */
+/* .topNav .depth2 > li { transition:all 0.5s} */
+.topNav .depth2 > li:hover a { opacity:0.6 }
+.topmenu .login {
+    font-size:17px;
+    color:#fff;
+    font-weight:bold;
+    padding:0 20px;
+    position: absolute; top:29px; right:70px;
+}
+.topmenu .login ul li { display: inline-block;
+    padding:0 15px
+}
+.topmenu .topbar {
+    position: absolute;
+    top:30px; right:0;
+    font-size:16px;
+    color:#fff;
+}
+.topmenu .topbar-close-outlayer {
+    position:fixed;
+    top:0; bottom:0; left:0; right:0;
+    background:rgba(0,0,0,0.8);
+    display:none;
+    z-index:99999999999;
+}
+.topmenu .topbar-close-outlayer.on {
+    position:fixed;
+    top:0; bottom:0; left:0; right:0;
+    background:rgba(0,0,0,0.8);
+    display:block;
+}
+.topmenu .topbar-close {
+    position: absolute;
+    top:28px; right:100px;
+    font-size:30px;
+    color:#fff;
+}
+.topmenu .topbar-close-outlayer .outlayer-menu {
+    position: absolute;
+    top:50%; transform:translateY(-50%);
+    width:100%; text-align:center;
+    font-size:40px;
+    color:#fff;
+}
+.topmenu .topbar-close-outlayer .outlayer-menu p {
+    padding:10px 0 0;
+}
+.topmenu .topbar-close-outlayer .outlayer-menu p:hover {
+    color:#0d50aa;
+}
+/*반응형 햄버거, 닫기, 로그인 버튼*/
+.topmenu .open-login { position: absolute; top:29px; right:35px;
+    font-size:25px; color:#fff;
+    display:none; cursor:pointer;
+}
+.topmenu .open-nav { font-size:22px; color:#fff;
+    position: absolute; top:31px; right:60px;
+    display:none; cursor:pointer;
+}
+.topmenu .close-nav { font-size:25px; color:#fff;
+    position: absolute; top:31px; right:60px;
+    display:none; cursor:pointer;
+}
+
+/*푸터*/
+#footer .footerMenu { padding:120px 0;
+}
+#footer .footerMenu h4 { font-size:18px; color:#333; font-weight: bold; }
+.footerMenu .footerlogo { float:left; width:16.666%;
+     display:block;
+     padding:0 15px;
+}
+.footerMenu .widgetItem { float:left; width:16.666%;
+    display:block;
+    padding:0 15px;
+}
+.footerMenu .widgetCont { float:left; width:20% }
+.footerMenu .instagram { float:right; width:40% }
+.footerMenu .widgetCont h4 { 
+    padding-bottom:25px;
+}
+.footerMenu .widgetItem h4 {
+    padding-bottom:13px;
+}
+.footerMenu .widgetbody {
+    font-size:16px; color:#777;
+    line-height:2;
+}
+.footerMenu .contbody address {
+    font-size:16px; color:#777;
+    line-height:1.6;
+    letter-spacing:-0.8px;
+}
+.footerMenu .widgetbody ul > li:hover a { opacity:0.2; }
+
+.instagram h4 { 
+    padding-bottom:25px;
+}
+.bodyInner > div { position: relative; float:left;
+    width:25%; 
+}
+.bodyInner > div img { width:100%; padding:2px 2px}
+.bodyInner .overlay { 
+    position:absolute;
+    top:0; right:0; left:0; bottom:0;
+    background:rgba(0,0,0,0.7);
+    opacity:0;
+    transition:all 0.5s;
+}
+.bodyInner .copy {
+    position: absolute;
+    top:50%; left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+    font-size:13px;
+}
+.bodyInner > div:hover .overlay {
+    opacity:1;
+}
+
+
+
+
+/* .loading {
+    position: fixed;
+    top:0; left:0; right:0; bottom:0;
+    background:rgba(255,255,255,0.9);
+    z-index:9999999999;
+    
+}
+
+.dot div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    border-radius: 10px;
+    background-color:#0d50aa;
+    transform: scale(0);
+    animation: dot 1.5s linear infinite;
+}
+
+.dot div:nth-child(1) {
+    left: -50px;
+    animation-delay: -0.1s;
+    background:pink
+}
+
+.dot div:nth-child(3) {
+    right: -50px;
+    animation-delay: 0.1s;
+    background:pink
+}
+
+@keyframes dot {
+    0% {
+        transform: scale(0);
+    }
+    35% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(0);
+    }
+}  */
+
+
+
+/*초기화면 로딩 애니메이션*/
+.loadingBox { z-index:999999999999999;}
+.loadingBox .dim {position:fixed; left:0; top:0; width:100%; height:100%; background:rgba(255,255,255,0.9);}
+.loadingBox .circle {position:fixed; left:50%; top:50%; transform:translate(-50%, -50%); width:40px; height:40px; border:10px solid skyblue; border-top:10px solid #0d50aa; border-radius:50em; transition:all .2s;
+    animation-name:spinCircle;
+    animation-duration:.8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes spinCircle {
+    from {
+        transform:translate(-50%, -50%) rotate(0) scale(1.3);
+        
+    }
+    to {
+        transform:translate(-50%, -50%) rotate(360deg) scale(1.3);
+        
+    }
+}
+  
+   

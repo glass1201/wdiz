@@ -1,0 +1,103 @@
+@charset "utf-8";
+@import "common.css";
+@import "reset.css";
+
+
+#business_section .business_bg {
+    background-image: url(../images/bus_img_1.jpg);
+    width:100%;
+    background-size:cover;
+}
+.business_bg h2 {
+    font-size:52px; color:#fff;
+    font-weight:bold;
+    text-align:center;
+    padding:350px 0;
+    animation:fadeInLeft 1s both
+}
+.titleWrap {height:700px;
+    background-image: url(../images/bus_img_2.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+.areaWrap { padding:150px 0 80px; width:100%;
+    overflow:hidden
+}
+.areaWrap .ul { width:25%; float:left;}
+.areaWrap img{ width:100px; height:100px;
+    padding-bottom:10px;
+ }
+.areaWrap .ul h4 { font-size:18px;
+    color:#333; 
+    padding:15px 0;
+    font-weight:bold;
+}
+.areaWrap .ul p { font-size:17px;
+    color:#777;
+    padding-bottom:30px
+}
+.areaWrap .area_left { display:inline-block; }
+.areaWrap .area_right { display:inline-block; }
+
+.process_bg {
+    background:#f5f5f5;
+    padding:120px 0
+}
+.process_title h3 { font-size:36px;
+    color:#333;
+    font-weight:bold;
+    padding-bottom:50px
+}
+.process_list .span { font-size:36px;
+    color:#0d50aa;
+    font-weight:bold;
+    position: absolute; top:0px; left:-50px;
+}
+.process_list h4 { color:#222;
+    font-weight:bold;
+}
+.process_list p { font-size:17px;
+    color:#777
+}
+.process_list ul li { float:left; width:25%;
+    margin:0 4%;
+    position: relative;
+    padding:0 15px;
+}
+
+.last_img { position: relative; }
+
+.last_img .img_outer > div { float:left; width:33.33%; height:640px }
+.last_img .img_outer > div:nth-child(1) {
+    background:url(../images/bus_img_3.jpg) no-repeat;
+    background-size:640px;
+    background-position: center;
+}
+.last_img .img_outer > div:nth-child(2) {
+    background:url(../images/insta5.jpg) no-repeat;
+    background-size:640px;
+    background-position: center;
+}
+.last_img .img_outer > div:nth-child(3) { background:#0d50aa; }
+.last_img .img_outer > div:nth-child(3) .text { position: relative; top:50%; left:35%; transform:translateY(-50%); width:80%;
+}
+.last_img .text h3 {
+    font-size:36px; color:#fff;
+    font-weight:bold;
+    padding-bottom:30px
+}
+.last_img .text button {
+    font-size:14px; color:#fff;
+    padding:18px 38px;
+    border:2px solid #fff;
+    border-radius: 30px;
+    background:#0d50aa;
+    margin:0 25px;
+    transition:all 0.5s;
+}
+.last_img .text button:hover {
+    background:#fff;
+    color:#0d50aa;
+}
+

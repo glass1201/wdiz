@@ -1,0 +1,48 @@
+@charset "utf-8";
+@import "common.css";
+@import "reset.css";
+
+
+#sub_section .qna_bg {
+    background-image:url(../images/comm_img_2.jpg);
+    background-size:cover; width:100%;
+}
+.qna_bg h3 {
+    font-size:36px;
+    color:#fff;
+    letter-spacing:-2.5px;
+    padding:375px 0 60px;
+    
+}
+.service_qna { color:#333; }
+.service_qna h3 {
+    font-size:36px;
+    text-align:center;
+    padding:120px 0 100px;
+}
+.qna_border h4 {
+    border:2px solid #eee;
+    border-radius: 100px;
+    padding:15px 20px;
+    transition:all 0.5s;
+    font-weight:bold;
+}
+.qna_border h4 > a { display:block;  }
+.qna_border h4:hover {
+    border-color:#0d50aa;
+}
+.qna_border .service_list {
+   padding-left:30px;
+   padding-top:20px;
+   padding-bottom:20px;
+   
+}
+/* .service_list.on { display:block } */
+.service_list { font-size:15px; color:#777 }
+.service_list p { padding:0 0 15px;}
+.serviceWrap { border-bottom:1px solid #eee;
+    padding-bottom:120px;
+}
+
+
+

@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+.notice2bg {
+    background-image:url(../images/bus_img_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding:250px 0;
+}
+.notice2txt { position: relative;}
+.notice2txt h2{
+    color:#fff;
+    font-size:35px;
+    position:absolute; bottom:-200px; 
+}
+
+.notice2Box { position: relative;
+}
+.notice2Box .nBox {
+    position: absolute; top:-35px; right:0;
+  
+}
+.notice2Box .nBox select { height:25px; vertical-align: top; }
+.notice2Box .nBox fieldset { border:1px solid #ddd; display:inline-block}
+.notice2Box fieldset input { border:none;
+    height:25px; width:200px;
+    text-indent:0.5em;
+}
+.notice2Box fieldset button { 
+    background:none; border:none;
+    height:25px;
+    padding-right:8px
+}
+.notice2Table { margin-top:80px}
+.notice2Table thead { border:1px solid #ddd;
+    border-left:none; border-right:none;
+    background:#eee
+}
+.notice2Table th { 
+    padding:15px 0;
+    font-size:14px;
+}
+
+.notice2Table td {
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    padding:7px 0;
+    border-bottom:1px solid #ddd;
+    font-size:15px
+}
+
+.notice2Table col:nth-child(1) { width:7% }
+.notice2Table col:nth-child(2) { width:auto }
+.notice2Table col:nth-child(3) { width:13% }
+.notice2Table col:nth-child(4) { width:13% }
+.notice2Table col:nth-child(5) { width:7% }
+.notice2Table tbody td:nth-child(1),
+.notice2Table tbody td:nth-child(3),
+.notice2Table tbody td:nth-child(4),
+.notice2Table tbody td:nth-child(5) { text-align:center }
+.notice2Table tbody td:nth-child(2):hover { text-decoration: underline;}
+
+.numlist2 { text-align:center; margin-top:30px}
+.numlist2 span { padding:0 15px; cursor:pointer }
+.numlist2 a { padding:0 5px}
+.numlist2 a.on { text-decoration: underline; font-weight: bold;}
+.numlist2 a:hover { font-weight: bold;}
+
+
+@media screen and (max-width:767px) {
+    .notice2bg {
+        background-image:url(../images/bus_img_1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        padding:150px 10px;
+    }
+    .notice2txt { position: relative;}
+    .notice2txt h2{
+        color:#fff;
+        font-size:35px;
+        position:absolute; bottom:-50px; 
+    }
+    .notice2Table th:nth-child(1),
+    .notice2Table th:nth-child(5) { display:none;}
+    .notice2Table tbody td:nth-child(1),
+    .notice2Table tbody td:nth-child(5) { display:none; }
+    .notice2Table col:nth-child(1) { display: none; }
+    .notice2Table col:nth-child(2) { width:auto }
+    .notice2Table col:nth-child(3) { width:17% }
+    .notice2Table col:nth-child(4) { width:17% }
+    .notice2Table col:nth-child(5) { display:none;}
+}
+
+@media screen and ( max-width:320px ) {
+    .notice2Box .nBox {
+        position: absolute; top:-35px; right:10px;
+      
+    }
+    .notice2Box fieldset input { border:none;
+        height:25px; width:150px;
+        text-indent:0.5em;
+    }
+
+    .notice2Table th:nth-child(1),
+    .notice2Table th:nth-child(4),
+    .notice2Table th:nth-child(5) { display:none;}
+    .notice2Table tbody td:nth-child(1),
+    .notice2Table tbody td:nth-child(4),
+    .notice2Table tbody td:nth-child(5) { display:none; }
+    .notice2Table col:nth-child(1) { display: none; }
+    .notice2Table col:nth-child(2) { width:auto }
+    .notice2Table col:nth-child(3) { width:25% }
+    .notice2Table col:nth-child(4) { display:none;}
+    .notice2Table col:nth-child(5) { display:none;}
+
+    .numlist2 a { padding:0 2px}
+}

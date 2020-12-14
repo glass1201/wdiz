@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+@media screen and ( max-width:1024px) {
+    /*첫번째 섹션*/
+    .company_bg { padding:250px 50px 200px}
+    .company_bg .new_item { width:40%; float:left;
+        padding-left:80px;
+       
+    }
+    .company_bg .new_item h3 {
+        font-size:52px;
+        color:#0d50aa;
+        font-weight:bold;
+        line-height:1.2;
+        letter-spacing:-1.7px; 
+    }
+    .company_bg .new_wrap { padding-left:0px}
+    .company_bg .new_wrap > div { width:60%; float:left; color:#fff;
+        padding-left:50px
+    }
+    .company_bg .new_wrap h4 {
+        font-size:18px;
+        font-weight:bold;
+        padding-bottom:10px;
+    }
+    .company_bg .new_wrap p {
+        font-size:17px;
+    }
+    .company_bg .new_wrap ul li { position: relative; float:left;
+        width:30%;  padding-left:50px; margin-bottom:60px; margin-right:30px }
+    
+    /*세번째 섹션*/
+    .text_titlebg { background:url(../images/com_img_2.jpg) no-repeat;
+        background-position:right 0;
+        background-size: 700px 700px;
+        padding:150px 20px;
+    }
+    
+   
+    
+    @media screen and ( max-width:800px) {
+        /*첫번째 섹션*/
+        .company_bg { padding:250px 50px 200px}
+        .company_bg .new_item { width:50%; float:left;
+            padding-left:80px;
+           
+        }
+        .company_bg .new_item h3 {
+            font-size:52px;
+            color:#0d50aa;
+            font-weight:bold;
+            line-height:1.2;
+            letter-spacing:-1.7px; 
+        }
+        .company_bg .new_wrap { padding-left:0px}
+        .company_bg .new_wrap > div { width:40%; float:left; color:#fff;
+            padding-left:50px
+        }
+        .company_bg .new_wrap h4 {
+            font-size:18px;
+            font-weight:bold;
+            padding-bottom:10px;
+        }
+        .company_bg .new_wrap p {
+            font-size:17px;
+            display:none
+        }
+        .company_bg .new_wrap ul li { position: relative; float:left;
+            width:40%;  padding-left:50px; margin-bottom:60px; margin-right:30px;}
+        
+        /*세번째 섹션*/
+        .text_titlebg { background:url(../images/com_img_2.jpg) no-repeat;
+            background-position:center;
+            background-size:cover;
+            padding:50px 30px;
+            width:100%;
+        }
+        
+        .text_title h4 { color:#fff; font-size:20px;
+            font-weight:bold; padding-bottom:10px;
+        }
+        .text_title h5 { color:rgba(255,255,255,0.6);
+            font-size:16px; 
+            font-weight:bold;
+            padding-bottom:30px;
+        }
+        .text_title p { color:#fff; font-size:20px;
+            line-height:1.6;
+            width:90%
+        }
+
+      
+        }
+
+        /*로고섹션*/
+        .logo {
+            padding:60px 0 80px; width:100%
+        }
+        .logo ul li { float:left; width:16.66%;
+        }
+        .logo ul li a { 
+            background:#f4f4f4;
+            padding:10px 0px;
+            margin:0px;
+            opacity:0.5;
+            transition:all 0.5s;
+            display:block;
+            text-align:center;
+        }
+
+    }
+
+    @media screen and ( max-width:600px) {
+         /*첫번째 섹션*/
+         .company_bg { padding:150px 0px 150px}
+         .company_bg .new_item { width:100%; float:none;
+            padding-bottom:40px;
+         }
+         .company_bg .new_item h3 {
+             font-size:45px;
+             color:#0d50aa;
+             font-weight:bold;
+             line-height:1.2;
+             letter-spacing:-1.7px; 
+         }
+         .company_bg .new_wrap { padding-left:0px}
+         .company_bg .new_wrap > div { width:100%; float:left; color:#fff;
+             padding-left:50px
+         }
+         .company_bg .new_wrap h4 {
+             font-size:16px;
+             font-weight:bold;
+             padding-bottom:10px;
+         }
+         .company_bg .new_wrap p {
+             font-size:15px;
+             display:block;
+         }
+         .company_bg .new_wrap ul li { position: relative; float:left;
+             width:90%;  padding-left:50px; margin-bottom:50px; margin-right:0px;}
+         
+        /*두번째 섹션*/
+        .webdizWrap .webdiz_text {padding:100px 0; width:100%; line-height:1.6;}
+        .webdizWrap .webdiz_text div {width:100%; margin:0; padding:0 10px}
+        .webdiz_text .webdiz { float:none;}
+        .webdiz_text .mission { float:none;}
+        .webdiz_text .sv { float:none;}
+        .webdiz_text h2 { font-size:18px;
+            color:#0d50aa; font-weight:bold;
+            padding-bottom:20px;
+        }
+        .webdiz_text h3 { font-size:30px; color:#333;
+            padding-bottom:30px;
+            letter-spacing:-3px;
+        }
+        .webdiz_text h4 { font-size:20px; color:#333;
+            padding-bottom:15px
+        }
+        .webdiz_text p,
+        .webdiz_text ul li { font-size:15px; color:#777;
+            padding-bottom:25px;
+            position: relative;
+        }
+        .webdiz_text ul li:before { content:'\f00c'; font-family:'Font Awesome 5 Free';         font-weight:900;
+            position: absolute; top:0;left:-8%
+        }
+
+        /*네번째 섹션*/       
+
+        .img_list .bg_bk > div { float:left; width:33.33%; height:300px; }
+        .img_list .bg_bk h3 { font-size:36px}
+        .img_list .bg_bk p { font-size: 15px; display:none;}
+        .img_list .bg_txt_wrap { 
+            width:80%;
+            padding-left:30px;
+            position: relative; top:50%; transform: translateY(-50%);
+        }
+        .img_list .bg_bk div:nth-child(3) { background:#0d50aa;
+        }
+
+        
+    }
+
+    @media screen and ( max-width:320px) {
+         /*첫번째 섹션*/
+       .company_bg { padding:130px 40px 100px 0}
+       .company_bg .new_item { width:100%; float:none;
+          padding-bottom:40px;
+       }
+       .company_bg .new_item h3 {
+           font-size:40px;
+           color:#0d50aa;
+           font-weight:bold;
+           line-height:1.2;
+           letter-spacing:-1.7px; 
+       }
+       .company_bg .new_wrap { padding-left:0px}
+       .company_bg .new_wrap > div { width:100%; float:left; color:#fff;
+           padding-left:50px
+       }
+       .company_bg .new_wrap h4 {
+           font-size:16px;
+           font-weight:bold;
+           padding-bottom:10px;
+       }
+       .company_bg .new_wrap p {
+           font-size:15px;
+           display:block;
+       }
+        .company_bg .new_wrap ul li { position: relative; float:left;
+     width:90%;  padding-left:50px; margin-bottom:50px; margin-right:0px;}
+
+         /*세번째 섹션*/
+        .text_titlebg { background:url(../images/com_img_2.jpg) no-repeat;
+            background-position:center;
+            background-size:cover;
+            padding:100px 0;
+            width:100%
+        }
+        .text_title { width:90% }
+        .text_title h4 { color:#000; font-size:20px;
+            font-weight:bold; padding-bottom:10px;
+        }
+        .text_title h5 { color:#000;
+            font-size:16px; 
+            font-weight:bold;
+            padding-bottom:30px;
+        }
+        .text_title p { color:#000; font-size:20px;
+            line-height:1.6;
+        }
+
+          /*네번째 섹션*/
+          
+        .img_list { color:#fff; font-size:36px; margin-top:15px;}
+        .img_list .bg_bk div:nth-child(1) { background:url(../images/service-6.jpg) no-repeat;
+            background-size:640px 640px;
+            background-position:center;
+        }
+        .img_list .bg_bk div:nth-child(2) { background:url(../images/com_img_4.jpg) no-repeat;
+            background-size:640px 640px;
+            background-position:center;
+        }
+        .img_list .bg_bk div:nth-child(3) { background:#0d50aa;}
+        .img_list .bg_bk div:nth-child(4) { background:url(../images/com_img_3.jpg) no-repeat;
+            background-size:640px 640px;
+            background-position:center;
+        }
+        .img_list .bg_bk div:nth-child(5) { background:#333; }
+        .img_list .bg_bk div:nth-child(6) { background:url(../images/service-6.jpg) no-repeat;
+            background-size:640px 640px;
+            background-position:center;
+        }    
+
+          .img_list .bg_bk > div { float:left; width:50%; height:300px; }
+          .img_list .bg_bk h3 { font-size:30px}
+          .img_list .bg_bk p { font-size: 15px; display:none;}
+          .img_list .bg_txt_wrap { 
+              width:80%;
+              padding-left:10px;
+              position: relative; top:50%; transform: translateY(-50%);
+          }
+          .img_list .bg_bk div:nth-child(3) { background:#0d50aa;
+          }
+  
+
+        
+    }
+    
+
+
+
+
+

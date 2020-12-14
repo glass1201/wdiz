@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import "common.css";
+@import "reset.css";
+
+
+#login_section .loginbg {
+    background-image:url(../images/main_visual_1.jpg);
+    background-size:cover;
+    padding:300px 0 350px;
+}
+#login_section .loginbg img {
+    opacity:0.5;
+}
+.login_box h2 {
+    font-size:35px;
+    font-weight:bold;
+    color:#fff;
+    text-align:center;
+    margin-left:-15px;
+    padding-bottom:80px;
+}
+.login_box .login_form {
+    width:40%;
+    margin:0 auto;
+}
+.login_content .idpw_box {
+    display:inline-block;
+    padding-bottom:30px;
+
+}
+.login_content .idpw_box input {
+    width:100%;
+    padding:15px 10px;
+    margin-bottom:10px;
+    border-radius:10px;
+    text-indent:1em;
+}
+.login_content .idpw_box button {
+    width:100%;
+    padding:15px 5px;
+    border-radius:10px;
+    background-color:#039fea;
+    color:#fff;
+    font-size:15px;
+    font-weight:bold;
+    transition:all 0.5s;
+}
+.login_content .idpw_box button:hover {
+    background-color:#fff;
+    color:#039fea
+}
+.login_content .login_check {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left:-15px;
+    font-size:14px;
+}
+.login_content .find_idpw {
+    text-align: center;
+    font-size:14px;
+    margin-left:-15px;
+}
+.login_content .find_idpw span {
+    position: relative;
+    padding:0 10px;
+}
+.login_content .find_idpw span:before {
+    content:'|'; position: absolute;
+    top:50%; left:-3px;
+    transform:translateY(-50%);
+    font-size:11px;
+}
+.login_content .find_idpw span:first-child:before { display:none; }
+
+
+@media screen and (max-width:550px) {
+    #login_section .loginbg {
+        background-image:url(../images/main_visual_1.jpg);
+        background-size:cover;
+        padding:300px 0 300px;
+    }
+.login_box h2 {
+    font-size:30px;
+    font-weight:bold;
+    color:#fff;
+    text-align:center;
+    margin-left:0px;
+    padding-bottom:50px;
+}
+.login_box .login_form {
+    width:70%;
+    margin:0 auto;
+}
+.login_content .find_idpw span:last-child {
+    position: relative;
+    padding:0 10px;
+    display:block
+}
+}
